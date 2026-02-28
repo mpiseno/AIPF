@@ -95,11 +95,11 @@ footer {
 
 .link-arrow {
   font-size: 0.8rem;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.2em;
   color: var(--stone);
   text-decoration: none;
   position: relative;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 
 .link-arrow::after {
@@ -130,4 +130,47 @@ footer {
 
 footer {
   font-size: 0.85rem;
+}
+
+.initiatives {
+  border-top: 1px solid var(--line);
+}
+
+.section-title {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.initiative-card {
+  border-top: 1px solid var(--line);
+}
+
+.initiative-number {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--stone);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.initiative-title {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.initiative-desc {
+  color: var(--stone);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.link-arrow:hover {
+  color: var(--ink);
 }
