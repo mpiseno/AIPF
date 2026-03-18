@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+a {
+  display: inline-block;
+  padding: 0.3em 0.1em;
+}
+
 p {
   text-align: justify;
 }
@@ -51,7 +56,6 @@ footer {
 .intro {
   font-size: 1.1rem;
   color: var(--stone);
-  max-width: 40rem;
   font-weight: 300;
 }
 
@@ -76,7 +80,7 @@ footer {
   text-decoration: none;
   color: var(--ink);
   opacity: 0.50;
-  padding: 0;
+  padding: 0.4em 0.2em;
 }
 
 .site-nav .nav-link:hover,
